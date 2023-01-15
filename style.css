@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "LM";
+    src: url('lm.ttf')  format('truetype');
+}
+@font-face {
+    font-family: "TW";
+    src: url('twr.ttf')  format('truetype');
+}
+#imagebox{
+    display: inline-block;
+    width: 100%;
+    height: 1100px;
+}
+#infobox{
+    padding: 10 100 10 100;
+}
+.maintext{
+    font-family: "LM";
+    letter-spacing: 3px;
+    font-size: 64;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.secondarytext{
+    font-family: "TW";
+    font-size: 48;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
